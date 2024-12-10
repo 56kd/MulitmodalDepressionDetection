@@ -45,7 +45,7 @@ def decision_level_fusion(audio_predictions, text_predictions, audio_probabiliti
 
         # Skipping processing if one of the predictions is missing
         if audio_pred is None or text_pred is None:
-            continue  # Adapt this based on whether you want to fuse partial data or skip entirely
+            continue
 
         # Validate that predictions are integers and probabilities are numeric and within the range [0, 1]
         if not (isinstance(audio_pred, int) and audio_pred in {0, 1}) or not (isinstance(text_pred, int) and text_pred in {0, 1}):

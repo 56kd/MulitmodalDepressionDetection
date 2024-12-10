@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2024-05-20T20:20:55.822Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="1b8jjU-_vCJXbyBdc-vW" scale="1" border="0" version="24.4.4" type="device">
+  <diagram name="Page-1" id="QXqGwHFfH3auWsxZncOa">
+    <mxGraphModel dx="1434" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xhwe6njlOiKxCF8ikGd7-24" value="&lt;font color=&quot;#ffffff&quot;&gt;Audio Features&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="300" y="68" width="251" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="xhwe6njlOiKxCF8ikGd7-25" value="&lt;font color=&quot;#ffffff&quot;&gt;Conv1D layer, 64 units&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="300" y="107" width="251" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="xhwe6njlOiKxCF8ikGd7-26" value="&lt;font color=&quot;#ffffff&quot;&gt;Relu&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="300" y="146" width="251" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="xhwe6njlOiKxCF8ikGd7-27" value="&lt;font color=&quot;#ffffff&quot;&gt;MaxPooling1D layer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="300" y="185" width="251" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="xhwe6njlOiKxCF8ikGd7-28" value="&lt;font color=&quot;#ffffff&quot;&gt;Dropout rate: 0.3&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="300" y="224" width="251" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="xhwe6njlOiKxCF8ikGd7-29" value="&lt;font color=&quot;#ffffff&quot;&gt;Flatten and reshape&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="300" y="263" width="251" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="xhwe6njlOiKxCF8ikGd7-30" value="&lt;font color=&quot;#ffffff&quot;&gt;2 LSTM layers, 128 hidden dimensions&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="300" y="302" width="251" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="xhwe6njlOiKxCF8ikGd7-31" value="&lt;font color=&quot;#ffffff&quot;&gt;Attention Mechanism&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="300" y="341" width="251" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="xhwe6njlOiKxCF8ikGd7-32" value="&lt;font color=&quot;#ffffff&quot;&gt;Fully Connected layer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="300" y="380" width="251" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="xhwe6njlOiKxCF8ikGd7-33" value="&lt;font color=&quot;#ffffff&quot;&gt;Sigmoid output (probabilities)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="300" y="419" width="251" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="xhwe6njlOiKxCF8ikGd7-34" value="&lt;font color=&quot;#ffffff&quot;&gt;Conv1D layer uses kernel size 3, padding: 2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+          <mxGeometry x="135" y="93" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

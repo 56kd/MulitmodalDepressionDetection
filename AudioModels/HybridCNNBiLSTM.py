@@ -178,7 +178,7 @@ for fold_idx in range(len(fold_files)):
             # Write the filename and predicted label to file
             file.write(f"{filename}, {predicted_label}, {avg_prob}\n")
 
-    # If you still need to perform operations with true labels and "voted" predictions:
+    # Perform operations with true labels and voted predictions:
     true_labels_dict = extract_true_labels(test_identifiers)
     all_y_trues = [true_labels_dict[identifier] for identifier in set(test_identifiers)]
     all_y_preds = [round(file_avg_probability[identifier]) for identifier in set(test_identifiers)]

@@ -178,7 +178,7 @@ for fold_idx in range(len(fold_files)):
     train_data = TensorDataset(X_train_tensor, y_train_tensor)
     train_loader = DataLoader(train_data, shuffle=True, batch_size=32)
 
-    num_channels = 32  # Adjust based on your data's actual number of channels
+    num_channels = 32
     model = DenseNet1D(input_channels=num_channels, growth_rate=12, block_config=(6, 12, 24), compression=0.5).to(device)
 
     criterion = nn.BCELoss()
